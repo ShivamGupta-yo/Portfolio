@@ -359,10 +359,11 @@ height: 100%;
     font-weight: bold;
 }
 
-.btn[disabled] {
-    background: #9e9e9e; 
-    cursor: not-allowed; 
-    color: white; 
+.submitting-button {
+    background: rgb(7, 78, 233) !important; /* Change the background color to violet */
+    cursor: not-allowed !important;
+    color: white !important;
+    font-weight: bold !important;
 }
 
 /* ----Contact----- */
