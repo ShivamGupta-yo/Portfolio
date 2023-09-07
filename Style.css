@@ -557,4 +557,11 @@ nav .phone{
     display: block;
 }
 
+.submitting-button {
+    background: rgb(7, 78, 233) !important; /* Change the background color to violet */
+    cursor: not-allowed !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
 
