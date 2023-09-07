@@ -44,3 +44,11 @@ function opentab(tabname){
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+  document.addEventListener("header-text", function() {
+    const typingText = document.getElementById("autotype");
+    const textLength = typingText.textContent.length;
+    const animationDuration = 4 * textLength / 30; // Adjust the animation duration based on text length
+
+    typingText.style.animationDuration = `${animationDuration}s`;
+});
