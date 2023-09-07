@@ -431,7 +431,8 @@ nav .phone{
 /* css for small screen */
 @media only screen and (min-width:300px ) and (max-width:1024px){
     #header{
-        background-image: url(Images/backgroundimage_2.png);
+        background-image: url(Images/backgroundimage.png);
+        background-position: center;
     }
     .header-text{
         margin-top: 100%;
