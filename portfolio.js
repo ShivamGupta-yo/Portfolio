@@ -47,6 +47,9 @@ function opentab(tabname){
             .then(data => {
                 if (data) {
                     msg.innerHTML = 'Message submitted successfully!!';
+                    setTimeout(function(){
+                            msg.innerHTML=""
+                    },1000);
                     form.reset();
                 }
             })
