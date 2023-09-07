@@ -410,6 +410,16 @@ form input,form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+
+form input:-webkit-autofill,
+form input:-webkit-autofill:hover, 
+form input:-webkit-autofill:focus, 
+form input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}
 form .btn2{
     padding: 14px 60px;
     font-size: 18px;
@@ -427,6 +437,8 @@ form .btn2{
 nav .phone{
     display: none;
 }
+
+
 
 /* css for small screen */
 @media only screen and (min-width:300px ) and (max-width:1024px){
