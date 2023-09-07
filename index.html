@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/c1d02a8e15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <i class="fa-solid fa-wand-magic-sparkles" id="home"></i>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  <p class="phone"><i class="fa-solid fa-xmark" onclick="closemenu();" ></i>
+                  </p>
+                </ul>
+                <p class="phone"><i class="fa-solid fa-bars" onclick="openmenu();"></i>
+                </p>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Shivam Gupta.</span> <br>
+                </h1>
+                <h3>A passionate Web Developer from India.</h3>
+            </div>
+        </div>
+    </div>
+<!-- --------------- About -------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/User_1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>Hey, I am Shivam Gupta from Sundernagar, Himachal Pradesh, India. I am 20 years old and pursuing final year B.tech(CSE) from ABVGIET PRGATINAGAR(SHIMLA). In this section, you will get to know me and my experiences.</p>
+                    
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills');">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience');">Experience</p>
+                    <p class="tab-links" onclick="opentab('education');">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>HTML</span><br>Proficient in creating dynamic and responsive web experiences using HTML.
+                        </li>
+                        <li>
+                            <span>CSS</span><br>Proficient in CSS to create visually stunning and responsive web designs.
+                        </li>
+                        <li>
+                            <span>JAVASCRIPT</span><br>Crafting dynamic and engaging web experiences with JavaScript.
+                        </li>
+                        <li>
+                            <span>JAVA</span><br>Proficient in Java for developing robust and scalable software solutions.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>August-2022</span><br>Worked as an student intern at  VEE Software solutions private limited and Practiced core Java contents.
+                        </li>
+                        <li>
+                            <span>August-2023 - September-2023</span><br>Worked as an student intern at Arrow EduTech Pvt. Ltd. and practiced Web development Languages(HTML,CSS,JAVASCRIPT).
+                        </li>
+
+                      
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2018</span><br>10th class percentage: 82% (D.A.V public school,SunderNagar)
+                        </li>
+                        <li>
+                            <span>2020</span><br>12th Class percentage: 77.4%(D.A.V public school,SunderNagar)
+                        </li>
+                        <li>
+                            <span>2020</span><br>JEE mains Percentile: 89.98%
+                        </li>
+                        <li>
+                            <span>2020-present</span><br>Final year student in computer sciences at ABVGIET,pragatiNagar,Shimla
+                        </li>
+
+                        
+                      
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Projects ----- -->
+    <div id="projects" >
+        <div class="container">
+            <h1 class="sub-title"> My Projects</h1>
+            <p class="repositories">Here's a selection of my projects for brushing up my skills. For more stuff, kindly check out my <a href="https://github.com/ShivamGupta-yo?tab=repositories"> repositories</a>.</p>
+
+
+            <div class="projects-list">
+                <div>
+                    
+                    <i class="fa-solid fa-hand-scissors"></i>
+                    <h2>Rock-paper-Scissors</h2>
+                    <p>This is a fun game made in HTML,CSS and JAVASCRIPT.
+                    It contains icons of the hands and display the score(you can reset the score too).
+                    </p>
+                  <a href="https://github.com/ShivamGupta-yo/Rock-Paper-Scissors"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-store"></i>
+                    <h2>Amazon Clone</h2>
+                    <p>This is the home page of Amazon Website and made using languages HTML,CSS currently.Soon, it will have many options so stay tuned!</p>
+                  <a href="https://github.com/ShivamGupta-yo/AMAZON"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Music Player</h2>
+                    <p>A thrilling music player made in HTML,CSS and JS which allows you to play your favorite songs and go anywhere in the timeline of the song.</p>
+                  <a href="https://github.com/ShivamGupta-yo/Music-Player"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---Portfolio--- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="Images/work1.png" >
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>This is the home page of Amazon Website and made using <br>languages HTML,CSS currently. Soon, it will have many options <br> so stay tuned!</p>
+                    <a href="https://github.com/ShivamGupta-yo/AMAZON"><i class="fa-solid fa-folder"></i></a>
+                    </div>
+                   </div>
+            <div class="work">
+                <img src="Images/work2.png" >
+                <div class="layer">
+                    <h3>Rock-Paper-Scissors</h3>
+                    <p>This is a fun game made in HTML,CSS and JAVASCRIPT. <br>
+                        It contains icons of the hands and display the score <br>(you can reset the score too).</p>
+                    <a href="https://github.com/ShivamGupta-yo/Rock-Paper-Scissors"><i class="fa-solid fa-folder"></i></a>
+                
+            </div>
+            </div>
+           
+            <div class="work">
+                <img src="Images/work3.png" >
+                <div class="layer">
+                    <h3>Music-Player</h3>
+                    <p>A thrilling music player made in HTML,CSS and JS <br> which allows you to play your favorite songs <br> and go anywhere in the timeline of the song.</p>
+                    <a href="https://github.com/ShivamGupta-yo/Music-Player"><i class="fa-solid fa-folder"></i></a>
+                
+            </div>
+            </div>
+        
+    </div>
+
+    <a href="https://github.com/ShivamGupta-yo?tab=repositories"class="btn">See More</a>
+</div>
+</div>
+<!-- 
+---------------contact-------------- -->
+<div id="contact">
+<div class="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-envelope"></i>  shivam1234snr@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>  +917876592269</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/shivam.gupta598/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/ShivamGupta-yo"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shivam-gupta-5a996a20b/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://dev.to/shivamgupta-yo"><i class="fa-solid fa-globe"></i></a>
+
+            </div>
+            <a href="Images/Resume.pdf"  download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form  name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>  
+<div class="copyright">
+    <p> Copyright ©  Shivam Gupta <i class="fa-solid fa-code"></i></p>
+</div>  
+</div>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
