@@ -146,7 +146,7 @@ nav  i {
     #about{
     
         padding: 80px 0px;
-        color: #ababab;
+        color: #fffffffa;
         
     }
     .row{
@@ -173,6 +173,7 @@ nav  i {
         font-size: 60px;
         font-weight: 600;
         color: white;
+        margin-bottom: 15px;
     }
 
     .tab-titles{
@@ -196,9 +197,11 @@ nav  i {
         left:0;
         bottom: -8px;
         transition: 0.5s;
+        
     }
     .tab-links.active-link::after{
         width: 50%;
+        
 
     }
     
@@ -216,7 +219,7 @@ nav  i {
     }
 
     .tab-contents ul li span{
-        color: #ecc30e;
+        color: #f8fc05;
         font-size: 14px;
     }
     
