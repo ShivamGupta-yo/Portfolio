@@ -55,11 +55,13 @@ nav  i {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    margin-left: 10px;
     
     }
     nav i:hover{
         color: #ff004f;
         animation: shaking 0.5s infinite;
+        
     }
     /* This is an animation that allows icon to shake */
     @keyframes shaking {
