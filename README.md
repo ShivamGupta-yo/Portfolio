@@ -1,6 +1,6 @@
 # Shivam Gupta Portfolio
 
-![Portfolio Screenshot](Images/portfolio-screenshot.png)
+
 
 This is the README file for Shivam Gupta's portfolio website. The portfolio website showcases the skills, projects, and contact information of Shivam Gupta, a passionate web developer from India.
 
@@ -66,4 +66,5 @@ To use or customize this portfolio website, follow these steps:
 
 ## License
 
-This portfolio website is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
+This portfolio website is open-source and is under no license. Feel free to use, modify, and distribute it as needed.
+Happy coding !
