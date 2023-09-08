@@ -116,6 +116,7 @@ nav  i {
     }
     .auto-type {
         margin-left: 15px;
+        color: yellow !important;
         
     }
     .header-text p{
