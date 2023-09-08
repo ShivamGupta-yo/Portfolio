@@ -32,18 +32,28 @@ body{
 }
 
 nav{
+    position: fixed; 
+    top: -5px; 
+    left: 0; 
+    right: 0; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 1000; /* Add z-index to ensure the navbar is above other content */
+    padding: 10px 0;
+    background-color: #090d42;
+    border: 2px solid #0b1661;
+    
 }
 nav  i {
     color: white;
-    margin-top: 20px;
+    margin-top: 10px 20px;
     font-size: 25px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    
     }
     nav i:hover{
         color: #ff004f;
@@ -103,7 +113,7 @@ nav  i {
     #lines {
         display: block;
         font-size: 20px;
-        margin-top: 70px;
+        margin-top: 120px;
         color: white;
        
     }
