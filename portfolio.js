@@ -76,3 +76,6 @@ function opentab(tabname){
 
     typingText.style.animationDuration = `${animationDuration}s`;
 });
+
+
+
