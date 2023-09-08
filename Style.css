@@ -15,7 +15,7 @@ body{
 
 #header{
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     background-image: url(Images/backgroundgif.gif);
    background-size: 70vh;
    background-attachment: fixed; 
@@ -103,7 +103,7 @@ nav  i {
     
 
     .header-text{
-        margin-top: 20%;
+        margin-top: 15%;
         font-size: 30px;
        
     }
