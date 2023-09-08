@@ -38,7 +38,7 @@ function opentab(tabname){
         e.preventDefault();
     
         // Show "Submitting..." on the submit button and disable it
-        submitButton.innerHTML = 'Submitting...';
+        submitButton.innerHTML = 'Please Wait..';
         submitButton.disabled = true;
         submitButton.classList.add('submitting-button'); // Add the blue styling class
     
@@ -46,7 +46,7 @@ function opentab(tabname){
             .then(response => response.json())
             .then(data => {
                 if (data) {
-                    msg.innerHTML = 'Message submitted successfully!!';
+                    msg.innerHTML = 'Message sent successfully!!';
                     setTimeout(function(){
                             msg.innerHTML=""
                     },1000);
