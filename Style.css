@@ -217,14 +217,19 @@ nav  i {
     }
     
     .tab-contents ul li{
-        list-style: none;
+         list-style-type: disc; 
+        /*column-count: 4; 
+    column-gap: 20px; */
         margin: 10px 0;
     }
 
     .tab-contents ul li span{
         color: #f8fc05;
         font-size: 14px;
+       
+       
     }
+    
     
 /* ---------------Services------- */
 #projects{
