@@ -230,30 +230,39 @@ nav  i {
        
     }
     
-    
-/* ---------------Services------- */
+
+/* ---------------Projects---------- */
 #projects{
-    padding: 30px 0;
-    margin-top: 30px;
-    }
-
-   
-.projects-list{
-    display: grid ;
-   
-    /* This is done to make website responsive.
-   So, when you put it all together, grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); creates a grid layout where the columns will automatically adjust based on the available width of the container. Each column will be at least 250 pixels wide, and any extra space will be distributed equally among the columns, making them responsive to changes in the container's width. This is a common technique for creating flexible and responsive grid layouts in CSS.  */
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap: 40px;
-    margin-top: 50px; 
+    padding: 50px 0;
 }
 
-.projects-list a{
-    text-decoration: none;
+
+.project-list{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    margin-top: 50px;  
+ 
+  
 }
+.project{
+    border-radius: 10px;
+       position: relative;
+       overflow: hidden;
+       padding: 20px;
+}
+
+.project img{
+    width: 100%;
+    border-radius: 10px;
+  display: block;
+transition: transform 0.3s;
+}
+
 .repositories{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 200;
     color: white;
     
@@ -277,67 +286,6 @@ nav  i {
 
 .repositories a:hover::after{
     width: 100%;
-}
-
-
-.projects-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.projects-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-   
-}
-.projects-list a i{
-    color: white;
-    margin-top: 20px;
-    font-size: 25px;
-    text-decoration: none;
-    display: inline-block;
-  
-}
-.projects-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.projects-list div:hover{
-    background-color: #e23232;
-    
-    transform: translateY(-10px);
-}
-/* ---------------Portfolio----------- */
-#portfolio{
-    padding: 50px 0;
-}
-
-.work-list{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    gap: 20px;
-    margin-top: 50px;  
- 
-  
-}
-.work{
-    border-radius: 10px;
-       position: relative;
-       overflow: hidden;
-       padding: 20px;
-}
-
-.work img{
-    width: 100%;
-    border-radius: 10px;
-  display: block;
-transition: transform 0.3s;
 }
 
 .layer {
@@ -375,11 +323,11 @@ transition: transform 0.3s;
     text-align: center;
 }
 
-.work:hover img{
+.project:hover img{
 transform: scale(1.1);
 }
 
-.work:hover .layer{
+.project:hover .layer{
 height: 100%;
 }
 
@@ -400,12 +348,6 @@ height: 100%;
     font-weight: bold;
 }
 
-.submitting-button {
-    background: rgb(7, 78, 233) !important; /* Change the background color to violet */
-    cursor: not-allowed !important;
-    color: white !important;
-    font-weight: bold !important;
-}
 
 /* ----Contact----- */
 .contact-left{
@@ -457,7 +399,7 @@ cursor: pointer;
 }
 
 .contact-right form{
-width: 100%;
+    width: 100%;
 }
 form input,form textarea{
     width: 100%;
@@ -499,6 +441,12 @@ nav .phone{
     display: none;
 }
 
+.submitting-button {
+    background: rgb(7, 78, 233) !important; /* Change the background color to violet */
+    cursor: not-allowed !important;
+    color: white !important;
+    font-weight: bold !important;
+}
 
 
 /* css for small screen */
@@ -514,7 +462,7 @@ nav .phone{
         background-repeat: no-repeat;
       
        
-       
+        
     }
 
    
@@ -547,8 +495,7 @@ nav .phone{
     white-space: nowrap;
     overflow: hidden;
     
-    /* for animation 
-     */
+   
     
   
     }
