@@ -239,10 +239,11 @@ nav  i {
 
    
 .projects-list{
-    display: grid;
+    display: grid ;
+   
     /* This is done to make website responsive.
    So, when you put it all together, grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); creates a grid layout where the columns will automatically adjust based on the available width of the container. Each column will be at least 250 pixels wide, and any extra space will be distributed equally among the columns, making them responsive to changes in the container's width. This is a common technique for creating flexible and responsive grid layouts in CSS.  */
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap: 40px;
     margin-top: 50px; 
 }
@@ -630,9 +631,8 @@ nav .phone{
         display: none;
     }
     
-
-   
     
+
 }
 
 #msg{
