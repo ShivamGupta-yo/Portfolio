@@ -81,8 +81,8 @@ function opentab(tabname){
 
 
 var typed = new Typed(".auto-type",{
-    strings: ["Eat.","Sleep.","Code.","Repeat."],
-    typeSpeed: 40,
-    backSpeed: 40,
+    strings: [" Web Developer.","Programmer.","Student.","Engineer."],
+    typeSpeed: 32,
+    backSpeed: 32,
     loop: true
 });
