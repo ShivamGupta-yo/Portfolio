@@ -349,9 +349,11 @@ height: 100%;
 /* ----Contact----- */
 .contact-left{
     flex-basis: 35%;
+    margin-left: 15px;
 }
 .contact-right{
     flex-basis: 60%;
+    margin-right: 15px;
 }
 .contact-left p{
     margin-top: 30px;
@@ -401,13 +403,15 @@ cursor: pointer;
 form input,form textarea{
     width: 100%;
     border: 0;
-    outline: none;
+    outline: 0;
     background: #0b1661;
+    border-bottom: 1px solid #1F51FF;
     padding: 15px;
     margin: 15px 0;
     color: white;
     font-size: 18px;
     border-radius: 6px;
+    resize: none;
 }
 
 form input:-webkit-autofill,
