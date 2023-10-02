@@ -471,8 +471,8 @@ nav .phone{
         margin-top: 300px;
         font-size: 16px;
         display: block;
-        transform: translateY(-100%); 
-        animation: slide-in 1s ease forwards;
+        /* transform: translateY(-100%); 
+        animation: slide-in 1s ease forwards; */
     }
     .header-text h1{
         color: #fbf7f0;
@@ -506,11 +506,7 @@ nav .phone{
         }
     }
     
-    .typing{
-        display: none;
-    }
     
-
     
    
     nav .phone{
@@ -577,6 +573,7 @@ nav .phone{
     }
     #lines{
         display: none;
+       
     }
     
     
