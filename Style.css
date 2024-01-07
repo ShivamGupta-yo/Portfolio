@@ -498,7 +498,7 @@ nav .phone{
 
 
 /* css for small screen */
-@media only screen and (min-width:150px ) and (max-width:1024px){
+@media only screen and (min-width:300px ) and (max-width:1024px){
     #header{
         background-image: url(Images/mobile.avif);
         background-position: center;
