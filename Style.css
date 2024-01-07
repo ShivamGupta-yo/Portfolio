@@ -117,7 +117,7 @@ nav  i {
         
     }
     .auto-type {
-        margin-left: 15px;
+        margin-left: 10px;
         color: yellow !important;
         
     }
@@ -165,6 +165,36 @@ nav  i {
         border-radius: 15px;
     }
 
+    .featured-image{
+        display: flex;
+        align-content: center;
+        min-height: 80vh;
+        width: 50%;
+    }
+    
+    .image{
+    
+    margin: auto 0;
+    width: 380px;
+    height: 380px;
+    border-radius: 55% 45% 55% 45%;
+    overflow: hidden;
+    animation: imgFloat 4.2s ease-in-out infinite;
+    }
+    .image img{
+        width: 380px;
+        height: 380px;
+        object-fit: cover;
+    }
+    
+    @keyframes imgFloat {
+        50%{
+            transform: translateY(15px);
+           
+            border-radius: 45% 55% 45% 55%;
+        }
+    }
+
     .about-col-2{
         flex-basis: 60%;
     }
@@ -179,6 +209,7 @@ nav  i {
     .tab-titles{
         display: flex;
         margin: 20px 0px 40px;
+        flex-wrap: wrap;
     }
     .tab-links{
         margin-right: 50px;
@@ -210,11 +241,11 @@ nav  i {
     }
     
     .tab-contents.active-tab{
-        display: block;
+        display: flex;
     }
     
     .tab-contents ul li{
-         list-style-type: disc; 
+       list-style: none;
         /*column-count: 4; 
     column-gap: 20px; */
         margin: 10px 0;
@@ -226,7 +257,23 @@ nav  i {
        
        
     }
-    
+
+
+   #skills ul li{
+    gap: 10px;
+    color: yellow;
+    display: flex;
+    font-size: 15px;
+    margin-top: 4px;
+    align-items: center;
+   list-style: circle;
+   }
+   #skills ul li p{
+    color: white;
+    margin-top: 5px;
+   }
+   
+
 
 /* ---------------Projects---------- */
 #projects{
@@ -552,7 +599,7 @@ nav .phone{
         flex-basis: 100%;
 
     }
-    .about-col-1{
+    .about-col-1, .featured-image,.image{
         margin-bottom: 30px;
 
     }
@@ -577,7 +624,6 @@ nav .phone{
     }
     
     
-
 }
 
 #msg{
