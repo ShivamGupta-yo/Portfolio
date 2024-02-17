@@ -639,5 +639,20 @@ nav .phone{
     font-weight: bold !important;
 }
 
+/* scroll bar 
+ */
+ ::-webkit-scrollbar{
+    width: 10px;
 
+ }
 
+ ::-webkit-scrollbar-track{
+    background: #090d42;
+     border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb{
+    background: #ff004f;
+    
+     border-radius: 10px;
+ }
